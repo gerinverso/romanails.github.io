@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom right, rgba(232, 124, 167, 0.9), rgba(255, 204, 218, 0.9)), url('Logo.jpg') center/cover no-repeat;
+    background: linear-gradient(to bottom right, rgba(232, 124, 167, 0.9), rgba(255, 204, 218, 0.9)), url('imagenes/Logo.jpg') center/cover no-repeat;
     color: var(--white);
     padding: 3rem 2rem;
     text-align: center;
