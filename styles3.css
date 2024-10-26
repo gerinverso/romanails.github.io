@@ -6,7 +6,41 @@
     --button-hover-color: #b56180;
     --white: #fff;
 }
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container, .galeria, .Turno, footer {
+        width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .service-card {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .galeria img {
+        max-width: 100px;
+    }
+
+    .horario {
+        font-size: 1rem;
+    }
+}
 body {
     background: linear-gradient(to bottom right, var(--secondary-color), #f2e5ea);
     color: var(--text-color);
